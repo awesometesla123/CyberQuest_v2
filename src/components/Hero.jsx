@@ -20,7 +20,7 @@ const Hero = () => {
         )}
       </div>
       <div className = 'md:ml-[200px] mt-[-150px]'>
-        <img src = {Meteor} alt="cyberquest" className = "flex-1 z-[4] relative  object-none"/>
+        <img src = {Meteor} alt="cyberquest" className = "flex-1 z-[2] relative  object-none"/>
       </div>
     </section>
   );

@@ -1,0 +1,40 @@
+{
+  "src/assets/Meteor.png": {
+    "file": "assets/Meteor-18d84fa3.png",
+    "src": "src/assets/Meteor.png"
+  },
+  "src/assets/clouds.png": {
+    "file": "assets/clouds-02d8e0c4.png",
+    "src": "src/assets/clouds.png"
+  },
+  "src/assets/crypt_icon.png": {
+    "file": "assets/crypt_icon-0e19ac9b.png",
+    "src": "src/assets/crypt_icon.png"
+  },
+  "src/assets/fnaf.svg": {
+    "file": "assets/fnaf-1f30fdb1.svg",
+    "src": "src/assets/fnaf.svg"
+  },
+  "src/assets/stars.png": {
+    "file": "assets/stars-a27d36dd.png",
+    "src": "src/assets/stars.png"
+  },
+  "src/main.css": {
+    "file": "assets/main-31d96632.css",
+    "src": "src/main.css"
+  },
+  "src/main.jsx": {
+    "assets": [
+      "assets/fnaf-1f30fdb1.svg",
+      "assets/Meteor-18d84fa3.png",
+      "assets/stars-a27d36dd.png",
+      "assets/clouds-02d8e0c4.png"
+    ],
+    "css": [
+      "assets/main-31d96632.css"
+    ],
+    "file": "assets/main-98c014f0.js",
+    "isEntry": true,
+    "src": "src/main.jsx"
+  }
+}
