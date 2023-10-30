@@ -10,7 +10,7 @@ import clouds from './assets/clouds.png';
 export const App = () => {
 
   return (
-    <div className = "w-full overflow-hidden">
+    <div className = "w-full overflow-hidden scrollbar-hide">
         <div className = {` bg-primary ${styles.paddingX} ${styles.flexCenter} z-10`}>
           <div className = {`${styles.boxWidth}`}>
             <NavBar/>

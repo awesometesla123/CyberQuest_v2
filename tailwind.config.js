@@ -14,9 +14,9 @@ module.exports = withMT({
         'clouds': "url('assets/clouds.png')"
       },
       colors: {
-        cloudbg: "#0b3279",
-        cloudbn: "#0b2e70",
         content: "#050d26",
+        cloudbg: "#0B3279",
+        course: "#17214d",
         primary: "#070d29",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",

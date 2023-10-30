@@ -7,10 +7,10 @@ export const navLinks = [
         id: "/contact",
         title: "Contact Us"
     },
-    {
-        id: "/login",
-        title: "Log In"
-    },
+    // {
+    //     id: "/login",
+    //     title: "Log In"
+    // },
 ];
 
 export const offeredInfo = [
@@ -42,5 +42,11 @@ export const games = [
         id: "v6",
         title: "Get Started",
         url: "https://creator.integem.com/videos/169741869844974339"
+    }
+]
+
+export const courses = [
+    {
+        
     }
 ]

@@ -1,17 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import fnaf from '../assets/fnaf.svg';
 import { navLinks } from '../constants';
 import { GoogleLogin } from '@react-oauth/google';
 import { NavLink, Route } from 'react-router-dom';
-
+import { jwtDecode } from "jwt-decode";
 
 const NavBar = () => {
-  const responseMessage = (response) => {
-    console.log(response);
-  };
-  const errorMessage = (error) => {
-      console.log(error);
-  };  
+  
   return (
     <nav className="w-full flex justify-around navbar py-6 bg-transparent">
       <div className = "z-[3] flex flex-row">
@@ -25,7 +20,13 @@ const NavBar = () => {
             <NavLink to = {`${nav.id}`} className = "text-white">{nav.title}</NavLink>
           </li>
         ))}
-        <GoogleLogin onSuccess={responseMessage} onError={errorMessage}/>
+        <GoogleLogin onSuccess={credentialResponse => {
+          var credentialResponseDecoded = jwtDecode(credentialResponse.credential)
+          console.log(credentialResponseDecoded);
+        }}
+        onError = {credentialResponse => {
+          console.log('login failed');
+        }}></GoogleLogin>
       </ul>
     </nav>
   );
