@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import fnaf from '../assets/fnaf.svg';
 import { navLinks } from '../constants';
-import { GoogleLogin } from '@react-oauth/google';
+import { GoogleLogin, googleLogout } from '@react-oauth/google';
 import { NavLink, Route } from 'react-router-dom';
 import { jwtDecode } from "jwt-decode";
 
@@ -21,12 +21,18 @@ const NavBar = () => {
           </li>
         ))}
         <GoogleLogin onSuccess={credentialResponse => {
-          var credentialResponseDecoded = jwtDecode(credentialResponse.credential)
-          console.log(credentialResponseDecoded);
+          var info = jwtDecode(credentialResponse.credential)
+          localStorage.setItem("firstName", info.given_name);
+          localStorage.setItem("name", info.name);
+          localStorage.setItem("email", info.email);
+          localStorage.setItem("pfp", info.picture);
+          window.location.reload();
         }}
         onError = {credentialResponse => {
           console.log('login failed');
-        }}></GoogleLogin>
+        }} 
+        login_uri = "http://localhost:3000/courses"
+        auto_select />
       </ul>
     </nav>
   );
