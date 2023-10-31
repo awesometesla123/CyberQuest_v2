@@ -47,21 +47,25 @@ export const games = [
 
 export const ultimateCourseModules = [
     {
+        id: "socialEng",
         moduleNum: 1,
         title: "Social Engineering",
         txtFileLink: "./content/UltimateCourse/SocialEngineering.md",
     },
     {
+        id: "networking",
         moduleNum: 2,
         title: "Networking",
         txtFileLink: ""
     },
     {
+        id: "cqIntegration",
         moduleNum: 3,
         title: "CyberQuest Integration",
         txtFileLink: ""
     },
     {
+        id: "rwInteractions",
         moduleNum: 4,
         title: "More Real-World Interactions",
         txtFileLink: ""
