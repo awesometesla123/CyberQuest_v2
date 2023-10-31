@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Courses from "./pages/Courses.jsx"
+import UltCourse from './pages/UltCourse.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Routes>
             <Route exact path='/' element={<App/>} />
             <Route exact path='/courses' element={<Courses/>} />
+            <Route exact path = '/courses/ultcourse' element = {<UltCourse/>}></Route>
           </Routes>
         </BrowserRouter>
       </GoogleOAuthProvider>

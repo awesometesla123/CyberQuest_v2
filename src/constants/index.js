@@ -45,11 +45,25 @@ export const games = [
     }
 ]
 
-export const socialEngModules = [
+export const ultimateCourseModules = [
     {
         moduleNum: 1,
-        title: "...",
-        txtFileLink: "...",
-        
+        title: "Social Engineering",
+        txtFileLink: "./content/UltimateCourse/SocialEngineering.md",
+    },
+    {
+        moduleNum: 2,
+        title: "Networking",
+        txtFileLink: ""
+    },
+    {
+        moduleNum: 3,
+        title: "CyberQuest Integration",
+        txtFileLink: ""
+    },
+    {
+        moduleNum: 4,
+        title: "More Real-World Interactions",
+        txtFileLink: ""
     }
 ]

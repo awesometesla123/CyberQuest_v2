@@ -9,6 +9,8 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import stars from '../assets/stars.png'
+import { NavLink } from 'react-router-dom';
 
 const Courses = () => {
   const [name, setName] = useState("User");
@@ -22,6 +24,9 @@ const Courses = () => {
 
   return (
     <div className = "bg-primary">
+      <div className = {`relative flex-col`}>
+          <img src = {stars} className = "flex-1 w-[100%] left-0 right-0 top-0 bottom-0 absolute margin-auto z-[0] overflow-hidden bg-" />
+      </div>
       <NavBar/>
       <div className = " p-10 grid grid-cols-6 font-poppins text-white" >
         <SideNav/>
@@ -63,7 +68,7 @@ const Courses = () => {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
-                <Button>Start</Button>
+                <Button><NavLink to = "/courses/ultcourse">Start</NavLink></Button>
               </CardFooter>
             </Card>
           </div>: <div></div>}
