@@ -19,7 +19,7 @@ export const App = () => {
   
       <div className = {` bg-gradient-to-b z-[5] from-primary  to-cloudbg ${styles.flexStart}`}>
         <div className = {`relative flex-col`}>
-          <img src = {stars} className = "flex-1 w-[100%] left-0 right-0 top-0 bottom-0 absolute margin-auto z-[0] overflow-hidden" />
+          <img src = {stars} className = "flex-1 w-[100%] left-0 right-0 top-0 bottom-0 absolute margin-auto z-[0] overflow-hidden bg-" />
           <Hero />
         </div>
       </div>

@@ -45,8 +45,11 @@ export const games = [
     }
 ]
 
-export const courses = [
+export const socialEngModules = [
     {
+        moduleNum: 1,
+        title: "...",
+        txtFileLink: "...",
         
     }
 ]
