@@ -21,6 +21,7 @@ const Code = ({children}) => {
 
 const UltCourse = () => {
   const [social, setSocial] = useState("");
+  const [networking, setNetworking] = useState("");
   useEffect(() => {
     import("../constants/content/UltimateCourse/SocialEngineering.md")
       .then(res => {
@@ -29,7 +30,12 @@ const UltCourse = () => {
           .then(res => setSocial(res))
       })
 
-    // OTHER MDS
+    import("../constants/content/UltimateCourse/Networking.md")
+      .then(res => {
+        fetch(res.default)
+          .then(res => res.text())
+          .then(res => setNetworking(res))
+      })
   }, []);
 
   return (
@@ -98,7 +104,7 @@ const UltCourse = () => {
                           component: Code
                         }
                       }
-                    }} className = "markdown p-10 col-start-3 col-end-8 font-poppins">{content}</Markdown>
+                    }} className = "markdown p-10 col-start-3 col-end-8 font-poppins">{networking}</Markdown>
                 } />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/blogs' element={<Blogs />} />

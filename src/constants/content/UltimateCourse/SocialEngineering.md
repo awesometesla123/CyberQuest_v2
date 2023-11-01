@@ -9,13 +9,8 @@ Social engineering is a type of attack that uses social tactics to gain unauthor
 | Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
 
 
-<<<<<<< HEAD
-#### **What are the main intents of *Social Engineering?***
-Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend youself against. 
-=======
 #### **What are the main intents of *Social Engineering*?**
 Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend yourself against. 
->>>>>>> 6a6653d1084f1518de75ec02c13a3fe6721e5da2
 
 
 ## **What is *phishing*?**
@@ -35,7 +30,6 @@ Phishing messages are often too good to be true, create a sense of urgency, cont
 
 </Code>
 
-<<<<<<< HEAD
 Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch.
 
 ## **CyberQuest against phishing**
@@ -43,6 +37,3 @@ Financial hooks and other attention-grabbing information can lure potential vict
 #### CyberQuest's Winfred Lin engaging in anti-email phishing acitivities:
 ![image](/src/assets/cyberquest_1.png)
 CyberQuest offers users a transformative experience to enchance their skills in avoiding scam and phishing emails looking for confidential (and valuable data). In this specific example, which you can try **[here](https://website-name.com)**, a user is learning strategies to evade and also check the legitamcy of emails in order to evaluate whether it is a scam or not.
-=======
-Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch. 
->>>>>>> 6a6653d1084f1518de75ec02c13a3fe6721e5da2
