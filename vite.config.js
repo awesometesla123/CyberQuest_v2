@@ -9,6 +9,7 @@ dns.setDefaultResultOrder('verbatim');
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  assetsInclude: ['**/*.md'],
   build: {
     manifest: true,
     rollupOptions: {

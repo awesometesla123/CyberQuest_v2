@@ -147,6 +147,7 @@
   animation: slideIn 1s ease-in-out forwards; /* Use animation-fill-mode: forwards */
 }
 
+
 @keyframes slideIn {
   from {
     transform: translateX(100%); /* Start from the right */

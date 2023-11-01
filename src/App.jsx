@@ -3,7 +3,7 @@ import styles from "./style.js"
 import NavBar from './components/NavBar.jsx';
 import Hero from './components/Hero.jsx';
 import OfferedInfo from './components/OfferedInfo.jsx';
-import './index.css';
+
 import stars from './assets/stars.png'
 import clouds from './assets/clouds.png';
 

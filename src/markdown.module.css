@@ -1,0 +1,36 @@
+
+h1 {
+    font-size: 50px !important;
+}
+h2 {
+    margin-top: 20px !important;
+    font-size: 40px !important;
+}
+h3 {
+    margin-top: 20px !important;
+    font-size: 30px !important;
+}
+h4 {
+    margin-top: 20px !important;
+    font-size: 20px !important;
+}
+
+tr {
+    border-top: 1px solid #c6cbd1;
+    background: #fff;
+  }
+  
+  th,
+  td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+  }
+  
+  table tr:nth-child(2n) {
+    background: #f6f8fa;
+  }
+
+  table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
