@@ -50,7 +50,7 @@ const UltCourse = () => {
                     : 'h-[75px]'
                 } hover:bg-gray-100`}
               >
-                <div className="flex items-center">
+                <div className="flex items-center font-bold xl:text-[20px]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

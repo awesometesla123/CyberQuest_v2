@@ -45,6 +45,7 @@ const SideNav = () => {
                     <a rel="noopener noreferrer" href="#" className="text-xs hover:underline dark:text-gray-400">View profile</a>
                 </span>
                 </div>
+                <Chip value="0 Points" size="sm" variant="ghost" color="blue-gray" className="rounded-full text-white" ></Chip>
             </div>
             <div className="divide-y divide-gray-700">
                 <List className = "text-white font-bold font-poppins">
@@ -59,9 +60,6 @@ const SideNav = () => {
                         <InboxIcon className="h-5 w-5" />
                     </ListItemPrefix>
                     Inbox
-                    <ListItemSuffix>
-                        <Chip value="14" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
-                    </ListItemSuffix>
                     </ListItem>
                     <ListItem>
                     <ListItemPrefix>
