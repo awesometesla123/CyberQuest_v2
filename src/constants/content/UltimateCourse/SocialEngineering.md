@@ -1,12 +1,13 @@
 # **What is *Social Engineering*?**
-Social engineering is a type of attack that uses social tactics to gain unauthorized information. Even though social engineering can be low-tech, it is still extremely harmful to individuals and organizations. Some of the common methods behind social engineering are using:
+Social engineering is a type of attack that uses social tactics to gain unauthorized information. Even though social engineering can be low-tech, it is still extremely harmful to individuals and organizations. Some of the common methods behind social engineering use:
 
 
 | Method | Description |
 | ----------- | ----------- |
 | Flattery |  Assuming a position of authority, encouraging someone to reveal private information. |
 | Impersonation | Pretending to be someone else possibly close to the user. |
-| Tailgaiting | ... |
+| Tailgaiting | The practice of closely following an authorized individual to avoid showing credentials. |
+| Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
 
 
 #### **What are the main intents of *Social Engineering*?**
@@ -14,17 +15,20 @@ Criminals who use Social Engineering tactics often do it to reveal confidential 
 
 
 ## **What is *phishing*?**
-Phishing is a cybercrime in which targets are contacted by email, phone, or text message by a malicious group or individual posing as a legitimate institution. <br />
-
-### **What are some features of *phishing*?**
-Phishing messages are often too good to be true, create a sense of urgency, contain hyperlinks, contain attachments, or are sent from unusual senders. A phishing message does NOT have to have all of these features. 
+Phishing is a cybercrime in which targets are contacted by email, phone, or text message by a malicious group or individual, often posing as a legitimate institution. These attacks have been very frequent recently, and the chances are multiple people you know have received these messages/emails. Here's an example: <br />
 
 <Code language = "javascript">
-    “Hi Baby, how are you doing? I have a million dollars! Wanna have lunch? 😘”
+    “Hey, this is Jay, it’s been so long since we last met! How does a meetup tomorrow night sound?”
+    "Hey, I just found this amazing video! You have to check it out ASAP. Click this link to download: bit.ly/2wxHxqK"
 </Code>
 
-Financial hooks and other attention-grabbing information can lure potential victims in (“There is no free lunch”) 
+### **What are some features of *phishing*?**
+Phishing messages are often too good to be true, create a sense of urgency, contain hyperlinks, contain attachments, or are sent by unusual senders. A phishing message does NOT have to have all of these features. Practice this concept by determining which phishing features are present in the following examples: 
 
-### **More about the *Sense of Urgency***
+<Code language = "javascript">
+    “Hi Baby, how are you doing? I have a million dollars! Wanna have lunch? 😘” (Too good to be true, most probably sent by an unusual sender)
+    "You're in big trouble! Open this file right now or face serious consequences! Download and run this: ImportantDocument.exe" (Sense of urgency, contains an attachment, and most probably sent by an unusual sender)
 
+</Code>
 
+Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch.
