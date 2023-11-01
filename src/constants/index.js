@@ -41,7 +41,7 @@ export const games = [
     {
         id: "v6",
         title: "Play AR",
-        url: "https://creator.integem.com/videos/169741869844974339"
+        url: "https://creator.integem.com/videos/169881567985118973"
     }
 ]
 
