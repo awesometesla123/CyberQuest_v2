@@ -20,6 +20,7 @@ const Code = ({children}) => {
 }
 
 const UltCourse = () => {
+  const [state, setState] = useState("");
   const [social, setSocial] = useState("");
   const [networking, setNetworking] = useState("");
   useEffect(() => {
@@ -50,9 +51,13 @@ const UltCourse = () => {
               Course Navigation
             </Typography>
             {ultimateCourseModules.map((module, index) => (
-              <NavLink to = {module.link} key={module.id}>
+              <NavLink key={module.id}>
                 <li
-                  onClick={() => console.log('Clicked:', module.title)}
+                  onClick={() => {
+                    if (module.title == "Social Engineering") setState(social);
+                    else if (module.title == "Networking") setState(networking);
+                    console.log(state);
+                  }}
                   className={`p-10 xl:h-[100px] border border-gray-600 font-poppins ${
                     index === ultimateCourseModules.length - 1
                       ? 'h-[100vw]'
@@ -86,31 +91,16 @@ const UltCourse = () => {
             ))}
           </ul>
         </div>
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route exact path='/' element={
-                  <Markdown options = {{
-                    overrides: {
-                      Code : {
-                        component: Code
-                      }
-                    }
-                  }} className = "markdown p-10 col-start-3 col-end-8 font-poppins">{social}</Markdown>} />
-                <Route path='/networking' element={
-                    <Markdown options = {{
-                      overrides: {
-                        Code : {
-                          component: Code
-                        }
-                      }
-                    }} className = "markdown p-10 col-start-3 col-end-8 font-poppins">{networking}</Markdown>
-                } />
-                <Route path='/contact' element={<Contact />} />
-                <Route path='/blogs' element={<Blogs />} />
-                <Route path='/sign-up' element={<SignUp />} />
-            </Routes>
-        </Router>
+        
+        <Markdown options = {{
+          overrides: {
+            Code : {
+              component: Code
+            }
+          }
+         }} className = "markdown p-10 col-start-3 col-end-8 font-poppins">{
+            state
+         }</Markdown>
 
       </div>
     </div>
