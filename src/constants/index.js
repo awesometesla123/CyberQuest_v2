@@ -67,7 +67,7 @@ export const ultimateCourseModules = [
     {
         id: "rwInteractions",
         moduleNum: 4,
-        title: "More Real-World Interactions",
+        title: "Real-World Interactions",
         txtFileLink: ""
     }
 ]
