@@ -11,7 +11,7 @@ Social engineering is a type of attack that uses social tactics to gain unauthor
 
 
 #### **What are the main intents of *Social Engineering*?**
-Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend youself against. 
+Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend yourself against. 
 
 
 ## **What is *phishing*?**
@@ -31,4 +31,4 @@ Phishing messages are often too good to be true, create a sense of urgency, cont
 
 </Code>
 
-Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch.
+Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch. 
