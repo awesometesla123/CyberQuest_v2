@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={`flex-1 flex-col ${styles.flexStart} xl:px-0 sm:px-20  `}>
         <div id="phrase" className="z-[2] flex w-full">
         <h1 className="flex-1 font-poppins font-bold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-75px z-[7] ">
-            Grow your <span style={{ color: '#75BDFF' }}>skills</span>, <br className="sm:block hidden" />
+            Grow your <span style={{ color: '#75BDFF' }}>skills</span>, <br />
             protect your <span style={{ color: '#75BDFF' }}>future</span>
           </h1>
         </div>

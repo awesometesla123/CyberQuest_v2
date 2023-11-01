@@ -1,7 +1,11 @@
 import { offeredInfo } from '../constants/index.js'
 import styles from '../style.js'
+import { useEffect } from 'react';
+import '../index.css';
+import '../animations.js';
 
-const OfferedInfo = () => (
+const OfferedInfo = () => {
+    return (
     <section className = "flex-col py-[300px]">
         <div className = "flex-col text-center xs:mb-[40px] mb-[30px]">
             <h1 className = "text-white font-poppins font-bold xs:text-[50px] text-[40px]">What CyberQuest Offers</h1>
@@ -25,6 +29,7 @@ const OfferedInfo = () => (
             ))}
         </div>
     </section>
-);
+    );
+};
 
 export default OfferedInfo

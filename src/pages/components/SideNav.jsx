@@ -32,7 +32,7 @@ const SideNav = () => {
         }
     }, []);
     return (
-        <div id = "nav" className = "z-[2] col-start-1 col-end-2 bg-course font-bold space-y-10 rounded-xl p-10" style = {{height: "100vh"}}>
+        <div id = "nav" className = "z-[2] col-start-1 col-end-3 bg-course font-bold space-y-10 rounded-xl p-10" style = {{height: "100vh"}}>
             <Typography variant="h5" color="white">
                     Navigation
             </Typography>

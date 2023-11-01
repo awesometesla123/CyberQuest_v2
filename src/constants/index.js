@@ -40,7 +40,7 @@ export const offeredInfo = [
 export const games = [
     {
         id: "v6",
-        title: "Get Started",
+        title: "Play AR",
         url: "https://creator.integem.com/videos/169741869844974339"
     }
 ]
@@ -51,23 +51,27 @@ export const ultimateCourseModules = [
         moduleNum: 1,
         title: "Social Engineering",
         txtFileLink: "./content/UltimateCourse/SocialEngineering.md",
+        link: "/socialengineering"
     },
     {
         id: "networking",
         moduleNum: 2,
         title: "Networking",
-        txtFileLink: ""
+        txtFileLink: "",
+        link: "/networking"
     },
     {
         id: "cqIntegration",
         moduleNum: 3,
         title: "CyberQuest Integration",
-        txtFileLink: ""
+        txtFileLink: "",
+        link: "/cqintegration"
     },
     {
         id: "rwInteractions",
         moduleNum: 4,
         title: "Real-World Interactions",
-        txtFileLink: ""
+        txtFileLink: "",
+        link: "/rwinteractions"
     }
 ]

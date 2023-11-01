@@ -28,15 +28,15 @@ const Courses = () => {
           <img src = {stars} className = "flex-1 w-[100%] left-0 right-0 top-0 bottom-0 absolute margin-auto z-[0] overflow-hidden bg-" />
       </div>
       <NavBar/>
-      <div className = " p-10 grid grid-cols-6 font-poppins text-white" >
+      <div className = " p-10 grid grid-cols-10 font-poppins text-white" >
         <SideNav/>
-        <div id = "courses" className = "col-start-2 col-end-6 w-full h-full font-poppins text-white text-center">
-          <h1 className = "font-bold text-5xl">{name}'s <span style={{ color: '#75BDFF' }}>CyberQuest</span> Courses</h1>
+        <div id = "courses" className = "col-start-3 col-end-10 w-full h-full font-poppins text-white text-center">
+          <h1 className = "z-[1] font-bold text-5xl">{name}'s <span style={{ color: '#75BDFF' }}>CyberQuest</span> Courses</h1>
           {signedIn ? <div id = "course cards" className = "text-white py-10 p-[100px] flex space-x-20">
             <Card id = "temp cb-basics" className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  src="src/assets/cyberlogo.jpg"
                   alt="card-image"
                 />
               </CardHeader>
@@ -55,7 +55,7 @@ const Courses = () => {
             <Card id = "temp full" className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  src = "src\assets\cybersec_img1.jpg"
                   alt="card-image"
                 />
               </CardHeader>
