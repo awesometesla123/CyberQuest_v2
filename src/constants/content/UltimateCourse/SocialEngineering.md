@@ -27,9 +27,9 @@ Phishing messages are often too good to be true, create a sense of urgency, cont
 <Code language = "javascript">
     “Hi Baby, how are you doing? I have a million dollars! Wanna have lunch? 😘” (Too good to be true, most probably sent by an unusual sender)
     "You're in big trouble! Open this file right now or face serious consequences! Download and run this: ImportantDocument.exe" (Sense of urgency, contains an attachment, and most probably sent by an unusual sender)
-
 </Code>
 
+Note: 
 Financial hooks and other attention-grabbing information can lure potential victims in. Remember, there is no free lunch.
 
 ## **CyberQuest against phishing**
