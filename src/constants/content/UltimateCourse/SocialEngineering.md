@@ -8,6 +8,9 @@ Social engineering is a type of attack that uses social tactics to gain unauthor
 | Tailgating | The practice of closely following an authorized individual to avoid showing credentials. |
 | Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
 
+## **Why does Social Engineering Work? (What to Look Out For)**
+By combining social tactics and psychological principles, social engineering maximizes its efficacy against people who aren't aware of the dangers. By studying social engineering tactics, you will better be able to recognize and defend yourself against would-be attackers. Some of the main tactics involved in social engineering include Authority, Urgency, Trust, and Intimidation. 
+
 
 #### **What are the main intents of *Social Engineering*?**
 Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend yourself against. 
