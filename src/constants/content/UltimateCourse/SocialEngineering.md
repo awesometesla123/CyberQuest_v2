@@ -5,7 +5,7 @@ Social engineering is a type of attack that uses social tactics to gain unauthor
 | ----------- | ----------- |
 | Flattery |  Assuming a position of authority, encouraging someone to reveal private information. |
 | Impersonation | Pretending to be someone else possibly close to the user. |
-| Tailgaiting | The practice of closely following an authorized individual to avoid showing credentials. |
+| Tailgating | The practice of closely following an authorized individual to avoid showing credentials. |
 | Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
 
 
