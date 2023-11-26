@@ -1,12 +1,21 @@
 # **What is *Social Engineering*?**
-Social engineering is a type of attack that uses social tactics to gain unauthorized information. Even though social engineering can be low-tech, it is still extremely harmful to individuals and organizations. Some of the common methods behind social engineering use:
+Social engineering is a type of attack that uses social tactics to gain unauthorized information. Even though social engineering can be low-tech, it is still extremely harmful to individuals and organizations. 
+
+Common social engineering attacks: 
+
+| Method | Description |
+| ----------- | ----------- |
+| Phishing | Sending emails to victims in the hopes of tricking them into revealing personal information. | 
+| Tailgating | The practice of closely following an authorized individual to avoid showing credentials. |
+| Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
+
+Some of the psychological tactics behind social engineering:
 
 | Method | Description |
 | ----------- | ----------- |
 | Flattery |  Assuming a position of authority, encouraging someone to reveal private information. |
 | Impersonation | Pretending to be someone else possibly close to the user. |
-| Tailgating | The practice of closely following an authorized individual to avoid showing credentials. |
-| Dumpster Diving | Searching through trash or recycling containers to gain access to confidential information through documents or reports (yes, it sounds extreme - but it happens). |
+| Intimidation | Bullying the victim into committing an action (Often combined with impersonation). |
 
 ## **What are the main intents of *Social Engineering*?**
 Criminals who use Social Engineering tactics often do it to reveal confidential information; receive money, gift cards, or cryptocurrency; and install malware on a target’s device. As will be observed in the following provided information, these criminals will often employ a multitude of techniques that you will learn how to defend yourself against. 
