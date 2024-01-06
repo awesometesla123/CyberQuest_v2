@@ -1,2 +1,2 @@
 # Packets
-![image](/src/assets/packets)
+![image](/src/assets/packets.png)
