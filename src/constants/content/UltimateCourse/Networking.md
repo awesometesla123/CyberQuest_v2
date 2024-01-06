@@ -7,7 +7,7 @@ In the modern day, with the increasing reliance on digital communication, cybers
 ### **What are packets?**
 Packets are the fundamental pieces of data in networking. They are smaller pieces of information that are part of a larger data stream. On a basic level, all packets contain headers and payloads that allow them to get routed around a network efficiently. The header of a packet contains information like source and destination IP addresses. The payload contains the actual information that needs to be sent. Packets are reassembled at their destination points and the data is extracted. 
 
-To learn more about packets, visit [Packets (Introduction)](https://github.com/CyberQuest_v2/blob/master/src/constants/content/UltimateCourse/Packets.md)
+To learn more about packets, visit [Packets (Introduction)]()
 
 ### **Routers in networking:**
 This is best explained through an analogy. Imagine routers as traffic cops for the internet! They help guide packets (like cars) as they travels between different networks (neighborhoods). They look at special addresses called IP addresses to decide where data should go. Routers also help homes share one internet connection and make sure it's safe.
