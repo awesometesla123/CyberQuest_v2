@@ -8,12 +8,10 @@ There is actually a fair amount of lore behind the name "Trojan". Thousands of y
 Inside the horse, however, were Greek warriors. As the party died and people eventually slept, the Greek warriors snuck out of the Trojan and opened the city gates to let the rest of the Greek army in. The Greek army then quickly captured the rest of the city. 
 
 ## Common Signs of Trojans
-Raw Content: 
 
-In computers, a Trojan horse can come as pirated software, a useful utility, a game, or something else that users might be enticed to download and try. 
+In computers, a Trojan horse can come as pirated software, a useful utility, a game, or something else that users might be tempted to download and try. 
 
 ## How Do Hackers Put Trojans in Devices? 
-Raw Content: 
 
 Attackers often use drive-by downloads to deliver Trojans. 
 
