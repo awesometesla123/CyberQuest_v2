@@ -35,6 +35,6 @@ Financial hooks and other attention-grabbing information can lure potential vict
 
 ## **CyberQuest against phishing**
 
-#### CyberQuest's Winfred Lin engaging in anti-email phishing acitivities:
+#### CyberQuest's Winfred Lin engaging in anti-phishing acitivities:
 ![image](/src/assets/cyberquest_1.png)
 CyberQuest offers users a transformative experience to enchance their skills in avoiding scam and phishing emails looking for confidential (and valuable data). In this specific example, which you can try **[here](https://website-name.com)**, a user is learning strategies to evade and also check the legitamcy of emails in order to evaluate whether it is a scam or not.
